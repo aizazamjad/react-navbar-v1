@@ -1,0 +1,1656 @@
+@font-face {
+  font-family: furura;
+  src: url("futur.TTF");
+}
+
+nav {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+
+#navbarNav img {
+  height: 300px;
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 200px;
+}
+
+#navbarNav .navbar-nav {
+  margin-top: 5%;
+  z-index: 1;
+}
+
+#navbarNav .navbar-nav li {
+  font-weight: normal;
+  font-size: larger;
+  font-family: Futura-bold;
+  color: white;
+  /* border-bottom: 1px solid blanchedalmond; */
+  /* padding: 10px 15px; */
+}
+#navbarNav .gall {
+  font-weight: normal;
+  /* width: 500px; */
+  display: flex;
+  justify-content: space-between;
+
+  color: white;
+  /* border-bottom: 1px solid blanchedalmond; */
+  /* padding: 50px; */
+}
+#navbarNav .navbar-nav .active {
+  border-bottom: 4px solid gray;
+}
+
+/* carousal */
+#carousal {
+  height: 80vh;
+}
+
+#carousal .carimg {
+  /* height: 85%; */
+  width: 86%;
+  position: relative;
+  left: 16%;
+  bottom: 12%;
+}
+.istcarousal {
+  height: 100%;
+  width: 100%;
+  margin-top: -40px;
+}
+
+/* #carousal .istimg {
+  position: relative;
+  left: 91%;
+} */
+#carousal .container_fluid {
+  position: relative;
+  bottom: 650px;
+  margin-left: 30px;
+}
+
+#carousal .carousel-inner img {
+  width: 800px;
+  height: 400px;
+  image-rendering: -webkit-optimize-contrast;
+  /* margin-left: 5%; */
+}
+
+#carousal .images {
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+#carousal a {
+  margin: 0px 800px;
+  font-size: 50px;
+}
+#carousal .arrows img {
+  height: 300px;
+  width: 500px;
+  /* padding-left: 30px;  */
+  margin-right: -7%;
+}
+#carousal .para h3,
+p {
+  margin-left: 10%;
+  text-align: justify;
+  /* width: 150%; */
+}
+/* .carousel-control-prev-icon {
+  width: 40%;
+  height: 20vh;
+  margin-left: 40%;
+}
+.carousel-control-next-icon {
+  width: 40%;
+  height: 20vh;
+} */
+/* ////////// */
+#ourwork {
+  height: 135vh;
+}
+#ourwork h2 {
+  margin-left: 70%;
+  font-family: work-sans;
+
+  color: black;
+  padding-top: 5%;
+}
+.carouselControls img {
+  width: 800px;
+  height: 400px;
+  margin-top: 8%;
+  margin-left: 21%;
+  border-radius: 5px;
+}
+/* .carouselControls a {
+  width: 15%;
+  height: 10vh;
+
+  margin-top: 24%;
+} */
+/* .carouselControls a i {
+  font-size: 50px;
+} */
+.carouselControls {
+  position: relative;
+  bottom: 600px;
+}
+
+#ourwork .para {
+  position: relative;
+  bottom: 580px;
+}
+#ourwork p {
+  padding-top: 5%;
+  color: black;
+  float: right;
+  width: 50%;
+  text-align: justify;
+}
+#ourwork span hr {
+  height: 3px;
+  background-color: black;
+  width: 60%;
+  position: relative;
+  bottom: 35px;
+  left: 110px;
+}
+#ourwork .whiteimg {
+  position: relative;
+  bottom: 69px;
+  left: 17px;
+}
+#ourwork a img {
+  height: 300px;
+  /* width: 500px; */
+  padding-left: 90px;
+}
+
+/* ourworktwo */
+#ourworktwo {
+  height: 100%;
+  background-color: black;
+}
+#ourworktwo .thirdborder {
+  width: 88%;
+  height: 600px;
+  margin-left: 14%;
+  position: relative;
+  bottom: 106px;
+}
+
+#ourworktwo h2 {
+  margin-left: 10%;
+  font-family: work-sans;
+  color: white;
+  padding-top: 5%;
+}
+#ourworktwo a img {
+  height: 300px;
+  width: 500px;
+  padding-left: 10px;
+}
+
+#ourworktwo .arrowstwo img {
+  height: 350px;
+  padding-left: 20px;
+}
+#ourworktwo .carousel-control-prev img {
+  margin-left: 150px;
+}
+#ourworktwo .carousel-control-next img {
+  margin-left: 150px;
+}
+/* #ourworktwo .paratwo {
+  position: relative;
+  bottom: 200px;
+} */
+.carouselControlstwo img {
+  width: 800px;
+  height: 400px;
+  margin-top: 8%;
+  margin-left: 22%;
+  border-radius: 5px;
+  background-size: cover;
+}
+.carouselControlstwo {
+  margin-top: -50%;
+}
+.carouselControlstwo a {
+  width: 15%;
+  height: 10vh;
+
+  margin-top: 24%;
+}
+#ourworktwo p {
+  color: white;
+
+  width: 50%;
+  margin-top: -10%;
+  margin-left: 0;
+  text-align: justify;
+}
+
+/* /////////our services */
+#ourservices {
+  background-color: black;
+}
+#ourservices .container {
+  margin-top: -35%;
+}
+#ourservices p,
+span {
+  text-align: center;
+  position: relative;
+  bottom: 0px;
+  text-align: justify;
+}
+#ourservices h2 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#ourservices img {
+  height: 85%;
+  width: 86%;
+  position: relative;
+  left: 16%;
+  top: -53px;
+}
+
+/* ////////portfolio///////// */
+
+#navbarNavtwo .navbar-nav li {
+  font-weight: normal;
+  font-size: larger;
+  font-family: work-sans;
+  color: white;
+  /* border-bottom: 1px solid blanchedalmond; */
+  padding: 0px 22px;
+}
+.portfolio img {
+  width: 60%;
+  border-radius: 5px;
+}
+.image-portfolio {
+  height: 85%;
+  width: 101%;
+  position: relative;
+  left: 10%;
+  top: -51px;
+}
+
+#owl .portfolio {
+  margin-top: -40%;
+  width: 95%;
+  left: 5%;
+}
+
+/* ////last page//// */
+
+#contact {
+  background-color: black;
+  height: 80vh;
+  color: white;
+}
+#contact img {
+  height: 100%;
+  width: 80%;
+  position: relative;
+  left: 15%;
+  top: -38px;
+}
+#contact .container {
+  position: relative;
+  bottom: 450px;
+}
+
+#contact i {
+  font-size: 20px;
+}
+/* client page */
+
+#our-clients {
+  background-color: black;
+  height: 800px;
+  color: white;
+}
+
+#our-clients h2 {
+  margin-top: 10%;
+  font-family: work-sans;
+}
+
+#our-clients .images {
+  margin-top: 40px;
+  width: 90%;
+  height: 200px;
+  border-radius: 5px;
+}
+#our-clients .imagess {
+  width: 90%;
+  height: 100px;
+  margin-top: 100px;
+}
+#our-clients .last span {
+  text-align: center;
+  margin-left: 90px;
+  top: 50px;
+}
+#our-clients .image {
+  height: 85%;
+  width: 85%;
+  position: relative;
+  left: 14%;
+  top: -55px;
+}
+#our-clients .container {
+  position: relative;
+  bottom: 700px;
+  left: 3%;
+}
+.modal-dialog-scrollable .modal-content {
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+}
+
+#our-clients p {
+  text-align: center;
+  width: 300px;
+
+  margin: 10px -5px;
+}
+.bg-black {
+  background-color: black;
+}
+.height-120 {
+  height: 100%;
+}
+.mt-20perc {
+  margin-top: 20%;
+}
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+  font-size: 70px;
+  margin-left: 2%;
+}
+
+/* gallery */
+#gallery {
+  height: 190vh;
+}
+#picture {
+  height: 100vh;
+  position: relative;
+  bottom: 60%;
+  image-rendering: -webkit-optimize-contrast;
+}
+#video-gallery {
+  height: 100vh;
+  position: relative;
+  bottom: 83%;
+}
+.picture img {
+  border-radius: 10px;
+}
+.image-gallery {
+  height: 70%;
+  width: 84%;
+  position: relative;
+  left: 15%;
+  top: -70px;
+}
+.picture h5 {
+  position: relative;
+  bottom: 0px;
+  margin-left: 13%;
+}
+.video h5 {
+  position: relative;
+  bottom: 0px;
+  margin-left: 13%;
+}
+#picture .image {
+  position: relative;
+  /* left: 97%; */
+  bottom: 600px;
+}
+/* #picture .images img {
+  position: relative;
+  bottom: 100px;
+} */
+/* #owlcarousal img {
+  position: relative;
+  bottom: 300px;
+} */
+#owlcarousal {
+}
+#owlcarousal_1 {
+}
+.carousel_1 {
+  width: 75%;
+  margin: auto;
+}
+/* #contact {
+  height: ;
+} */
+#contact .contact {
+  margin-left: 20%;
+}
+#contact .no {
+  margin-left: 33%;
+  padding: 2px 0px;
+}
+/* #contact .container {
+  position: relative;
+  bottom: -200px;
+} */
+
+#exampleModal .lastrow img {
+  border: 2px solid black;
+}
+
+/* Media Queries */
+/* 
+@media (min-width: 1300px) and (max-width: 1500px) { */
+#carousal .carousel-inner img {
+  height: 40%;
+  width: 50%;
+  position: relative;
+}
+
+#carousal .carimg {
+  width: 93%;
+  left: 12%;
+  top: -12%;
+}
+
+#ourservices img {
+  width: 86%;
+  left: 13%;
+  top: -63px;
+}
+#navbarNav .navbar-nav {
+  width: 100%;
+}
+#navbarNav .navbar-nav {
+  /* margin: 0px -2%; */
+  text-align: center;
+  /* padding-right: 2%; */
+  /* margin-left: -5%; */
+}
+#navbarNav .navbar-nav li {
+  width: 100%;
+  /* padding: 28px; */
+}
+#navbarNav .navbar-nav ul {
+  width: 100%;
+}
+
+/* portfolio */
+.image-portfolio {
+  width: 105%;
+  left: 5%;
+  /* position: relative; */
+  top: -62px;
+}
+#nav .ourclient .navbar-nav {
+  width: 100%;
+  /* margin: 100px;
+    display: flex;
+    justify-content: space-around; */
+}
+/* our client */
+#our-clients .image {
+  top: -9%;
+  width: 86%;
+  left: 13%;
+}
+/* gallery */
+.image-gallery {
+  width: 85%;
+  left: 14%;
+  top: -7%;
+}
+#contact img {
+  width: 85%;
+  /* height: 100%; */
+  top: -11%;
+  left: 14%;
+}
+#contact .container {
+  top: -86%;
+  /* height: 100vh; */
+}
+@media (min-width: 1000px) and (max-width: 1199px) {
+  #carousal .carimg {
+    width: 91%;
+    left: 15%;
+    top: -12%;
+  }
+  #carousal .carousel-inner img {
+    width: 700px;
+    height: 300px;
+    margin-top: 18%;
+  }
+  #carousal a {
+    margin: 0px 696px;
+    margin-top: 145px;
+  }
+  .carouselControls img {
+    width: 700px;
+    height: 300px;
+  }
+  .carouselControlstwo img {
+    width: 700px;
+    height: 300px;
+  }
+
+  #ourservices img {
+    width: 83%;
+    top: -79px;
+  }
+  #navbarNav .navbar-nav {
+    width: 100%;
+  }
+  #navbarNav .navbar-nav {
+    margin: 0px -8%;
+  }
+  #navbarNav .navbar-nav li {
+    width: 100%;
+    /* padding: 28px; */
+  }
+  #navbarNav .navbar-nav ul {
+    width: 100%;
+  }
+  #ourservices .container {
+    max-width: 80%;
+  }
+  /* portfolio */
+  .image-portfolio {
+    width: 100%;
+    left: -5%;
+
+    top: -80px;
+  }
+  .image-portfolio {
+    width: 100%;
+    left: 9%;
+  }
+  /* our client */
+  #our-clients .image {
+    top: -12%;
+    width: 84%;
+    left: 16%;
+  }
+  #contact img {
+    width: 84%;
+    /* height: 100%; */
+    top: -18%;
+  }
+  #contact .container {
+    top: -60%;
+    height: 100vh;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1299px) {
+  #carousal .carousel-inner img {
+    height: 350px;
+    width: 720px;
+    position: relative;
+  }
+  #carousal .carousel-inner img {
+    width: 700px;
+    height: 300px;
+    margin-top: 18%;
+  }
+  #ourwork a img {
+    margin-top: 30%;
+  }
+  #carousal a {
+    margin: 0px 696px;
+    margin-top: 145px;
+  }
+  .carouselControls img {
+    width: 700px;
+    height: 300px;
+  }
+  .carouselControlstwo img {
+    width: 700px;
+    height: 300px;
+  }
+
+  #carousal .carimg {
+    width: 93%;
+    left: 13%;
+    top: -12%;
+  }
+
+  #carousal a {
+    margin: 0px 725px;
+  }
+
+  #ourservices img {
+    width: 88%;
+    left: 13%;
+    top: -96px;
+  }
+  #navbarNav .navbar-nav {
+    width: 100%;
+  }
+  #navbarNav .navbar-nav {
+    margin: 0px -2%;
+  }
+  #navbarNav .navbar-nav li {
+    width: 100%;
+    /* padding: 28px; */
+  }
+  #navbarNav .navbar-nav ul {
+    width: 100%;
+  }
+
+  /* portfolio */
+  .image-portfolio {
+    width: 111%;
+    left: 2%;
+    /* position: relative; */
+    top: -88px;
+  }
+  #nav .ourclient .navbar-nav {
+    width: 100%;
+    /* margin: 100px;
+    display: flex;
+    justify-content: space-around; */
+  }
+  /* our client */
+  #our-clients .image {
+    top: -12%;
+    width: 88%;
+    left: 12%;
+  }
+  /* gallery */
+  .image-gallery {
+    width: 84%;
+    left: 16%;
+    top: -9%;
+  }
+  #contact img {
+    width: 84%;
+    /* height: 100%; */
+    top: -17%;
+  }
+  #contact .container {
+    top: -86%;
+    height: 100vh;
+  }
+
+  #ourservices img {
+    width: 83%;
+    top: -79px;
+  }
+  #navbarNav .navbar-nav {
+    width: 100%;
+  }
+  #navbarNav .navbar-nav {
+    margin: 0px -8%;
+  }
+  #navbarNav .navbar-nav li {
+    width: 100%;
+    /* padding: 28px; */
+  }
+  #navbarNav .navbar-nav ul {
+    width: 100%;
+  }
+  #ourservices .container {
+    max-width: 80%;
+  }
+  /* portfolio */
+  .image-portfolio {
+    width: 100%;
+    left: -5%;
+
+    top: -80px;
+  }
+  .image-portfolio {
+    width: 100%;
+    left: 9%;
+  }
+  /* our client */
+  #our-clients .image {
+    top: -12%;
+    width: 84%;
+    left: 16%;
+  }
+  #contact img {
+    width: 84%;
+    /* height: 100%; */
+    top: -16%;
+  }
+  #contact .container {
+    /* top: -60%; */
+    height: 100vh;
+  }
+}
+@media (min-width: 1300px) and (max-width: 1399px) {
+  #carousal .carousel-inner img {
+    height: 400px;
+    width: 800px;
+    position: relative;
+    /* left: 20%; */
+  }
+  #carousal .carousel-inner img {
+    width: 700px;
+    height: 300px;
+    margin-top: 18%;
+  }
+  #ourwork .carousel-control-prev img {
+    position: relative;
+    margin-left: 20px;
+    top: 10%;
+  }
+  #ourwork .carousel-control-next img {
+    margin-left: -70%;
+    position: relative;
+    top: 10%;
+  }
+
+  #ourwork a img {
+  }
+  #ourworktwo .carousel-control-prev img {
+    position: relative;
+    margin-left: 158px;
+    top: -140%;
+  }
+  #ourworktwo .carousel-control-next img {
+    margin-left: 0px;
+    position: relative;
+    top: -140%;
+  }
+
+  #carousal a {
+    margin: 0px 696px;
+    margin-top: 120px;
+  }
+  .carouselControls img {
+    width: 700px;
+    height: 300px;
+  }
+  .carouselControlstwo img {
+    width: 700px;
+    height: 300px;
+  }
+
+  #carousal .carimg {
+    width: 86%;
+    left: 13%;
+    top: -9%;
+  }
+  #carousal {
+    height: 118vh;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1499px) {
+  #carousal .carousel-inner img {
+    height: 400px;
+    width: 800px;
+    position: relative;
+  }
+
+  #carousal a {
+    margin: 0px 796px;
+    margin-top: 145px;
+  }
+  .carouselControls img {
+    width: 800px;
+    height: 400px;
+  }
+  .carouselControlstwo img {
+    width: 800px;
+    height: 400px;
+  }
+  #carousal .carimg {
+    width: 90%;
+    left: 12%;
+    top: -13%;
+  }
+
+  #ourservices img {
+    width: 88%;
+    left: 11%;
+    top: -98px;
+  }
+  #navbarNav .navbar-nav {
+    width: 100%;
+  }
+  #navbarNav .navbar-nav {
+    margin: 0px -2%;
+  }
+  #navbarNav .navbar-nav li {
+    width: 100%;
+    /* padding: 28px; */
+  }
+  #navbarNav .navbar-nav ul {
+    width: 100%;
+  }
+
+  /* portfolio */
+  .image-portfolio {
+    width: 114%;
+    left: 0%;
+    /* position: relative; */
+    top: -98px;
+  }
+  #nav .ourclient .navbar-nav {
+    width: 100%;
+    /* margin: 100px;
+    display: flex;
+    justify-content: space-around; */
+  }
+  /* our client */
+  #our-clients .image {
+    top: -12%;
+    width: 87%;
+    left: 12%;
+  }
+  /* gallery */
+  .image-gallery {
+    width: 80%;
+    left: 16%;
+    top: -9%;
+  }
+  #contact img {
+    width: 87%;
+    /* height: 100%; */
+    top: -16%;
+    left: 12%;
+  }
+  #contact .container {
+    top: -86%;
+    /* height: 100vh; */
+  }
+}
+@media (min-width: 1500px) and (max-width: 1599px) {
+  #carousal .carousel-inner img {
+    height: 400px;
+    width: 800px;
+    position: relative;
+  }
+
+  #carousal {
+    height: 130vh;
+  }
+  #carousal .container_fluid {
+    position: relative;
+    bottom: 72%;
+    left: 5%;
+  }
+  #carousal .carimg {
+    width: 90%;
+    left: 11%;
+    top: -12%;
+  }
+
+  #carousal a {
+    margin: 0px 796px;
+    margin-top: 100px;
+  }
+  .carouselControls img {
+    width: 800px;
+    height: 400px;
+  }
+  .carouselControlstwo img {
+    width: 800px;
+    height: 400px;
+  }
+
+  #ourservices img {
+    width: 90%;
+    left: 9%;
+    top: -102px;
+  }
+  #navbarNav .navbar-nav {
+    width: 100%;
+  }
+  #navbarNav .navbar-nav {
+    margin: 0px -2%;
+  }
+  #navbarNav .navbar-nav li {
+    width: 100%;
+    /* padding: 28px; */
+  }
+  #navbarNav .navbar-nav ul {
+    width: 100%;
+  }
+
+  /* portfolio */
+  .image-portfolio {
+    width: 126%;
+    left: -7%;
+    /* position: relative; */
+    top: -102px;
+  }
+  #nav .ourclient .navbar-nav {
+    width: 100%;
+    /* margin: 100px;
+    display: flex;
+    justify-content: space-around; */
+  }
+  /* our client */
+  #our-clients .image {
+    top: -12%;
+    width: 90%;
+    left: 9%;
+  }
+  /* gallery */
+  .image-gallery {
+    width: 84%;
+    left: 12%;
+    top: -9%;
+  }
+  #contact img {
+    width: 91%;
+    /* height: 100%; */
+    top: -17%;
+    left: 8%;
+  }
+  #contact .container {
+    top: -86%;
+    /* height: 100vh; */
+  }
+}
+@media (min-width: 1600px) and (max-width: 1699px) {
+  #carousal .carousel-inner img {
+    height: 410px;
+    width: 810px;
+    position: relative;
+  }
+  #carousal {
+    height: 140vh;
+  }
+  #carousal .container_fluid {
+    position: relative;
+    bottom: 75%;
+    left: 7%;
+  }
+
+  #carousal .carimg {
+    width: 92%;
+    left: 10%;
+    top: -12%;
+  }
+  #ourwork a img {
+    margin-top: 150px;
+  }
+
+  #carousal a {
+    margin: 0px 796px;
+    margin-top: 100px;
+  }
+  .carouselControls img {
+    width: 810px;
+    height: 410px;
+    right: 2%;
+  }
+  .carouselControlstwo img {
+    width: 810px;
+    height: 410px;
+  }
+
+  #ourservices img {
+    width: 91%;
+    left: 8%;
+    top: -108px;
+  }
+  #navbarNav .navbar-nav {
+    width: 100%;
+  }
+  #navbarNav .navbar-nav {
+    margin: 0px -2%;
+  }
+  #navbarNav .navbar-nav li {
+    width: 100%;
+    /* padding: 28px; */
+  }
+  #navbarNav .navbar-nav ul {
+    width: 100%;
+  }
+
+  /* portfolio */
+  .image-portfolio {
+    width: 136%;
+    left: -13%;
+    /* position: relative; */
+    top: -108px;
+  }
+  #nav .ourclient .navbar-nav {
+    width: 100%;
+    /* margin: 100px;
+    display: flex;
+    justify-content: space-around; */
+  }
+  /* our client */
+  #our-clients .image {
+    top: -12%;
+    width: 91%;
+    left: 8%;
+  }
+  /* gallery */
+  .image-gallery {
+    width: 85%;
+    left: 11%;
+    top: -9%;
+  }
+  #contact img {
+    width: 91%;
+    /* height: 100%; */
+    top: -17%;
+    left: 8%;
+  }
+  #contact .container {
+    top: -86%;
+    /* height: 100vh; */
+  }
+}
+@media (min-width: 1700px) and (max-width: 1799px) {
+  #carousal .carousel-inner img {
+    height: 420px;
+    width: 820px;
+    position: relative;
+  }
+  #carousal {
+    height: 150vh;
+  }
+  #carousal .container_fluid {
+    position: relative;
+    bottom: 77%;
+    left: 7%;
+  }
+
+  #carousal .carimg {
+    width: 94%;
+    left: 8%;
+    top: -12%;
+  }
+
+  #carousal a {
+    margin: 0px 820px;
+    margin-top: 90px;
+  }
+  .carouselControls img {
+    width: 820px;
+    height: 420px;
+    margin-right: 5%;
+  }
+  .carouselControlstwo img {
+    width: 820px;
+    height: 420px;
+  }
+
+  #ourservices img {
+    width: 93%;
+    left: 6%;
+    top: -116px;
+  }
+  #navbarNav .navbar-nav {
+    width: 100%;
+  }
+  #navbarNav .navbar-nav {
+    margin: 0px -2%;
+  }
+  #navbarNav .navbar-nav li {
+    width: 100%;
+    /* padding: 28px; */
+  }
+  #navbarNav .navbar-nav ul {
+    width: 100%;
+  }
+
+  /* portfolio */
+  .image-portfolio {
+    width: 146%;
+    left: -19%;
+    /* position: relative; */
+    top: -111px;
+  }
+  #nav .ourclient .navbar-nav {
+    width: 100%;
+    /* margin: 100px;
+    display: flex;
+    justify-content: space-around; */
+  }
+  /* our client */
+  #our-clients .image {
+    top: -12%;
+    width: 93%;
+    left: 6%;
+  }
+  /* gallery */
+  .image-gallery {
+    width: 88%;
+    left: 9%;
+    top: -9%;
+  }
+  #contact img {
+    width: 95%;
+    /* height: 100%; */
+    top: -16%;
+    left: 5%;
+  }
+  #contact .container {
+    top: -86%;
+    /* height: 100vh; */
+  }
+}
+@media (min-width: 1800px) and (max-width: 1899px) {
+  #carousal .carousel-inner img {
+    height: 430px;
+    width: 830px;
+    position: relative;
+  }
+  #carousal .arrows img {
+  }
+  #carousal .container_fluid {
+    position: relative;
+    bottom: 77%;
+    left: 7%;
+  }
+
+  .carouselControls img {
+    margin-right: 60px;
+    right: 10%;
+  }
+  #carousal a {
+    margin: 0px 820px;
+    margin-top: 100px;
+  }
+  .carouselControls img {
+    width: 830px;
+    height: 430px;
+  }
+  .carouselControlstwo img {
+    width: 830px;
+    height: 430px;
+  }
+
+  #carousal {
+    height: 165vh;
+  }
+
+  #carousal .carimg {
+    width: 96%;
+    left: 6%;
+    top: -11%;
+  }
+
+  #ourservices img {
+    width: 94%;
+    left: 5%;
+    top: -112px;
+  }
+  #navbarNav .navbar-nav {
+    width: 100%;
+  }
+  #navbarNav .navbar-nav {
+    margin: 0px -2%;
+  }
+  #navbarNav .navbar-nav li {
+    width: 100%;
+    /* padding: 28px; */
+  }
+  #navbarNav .navbar-nav ul {
+    width: 100%;
+  }
+
+  /* portfolio */
+  .image-portfolio {
+    width: 155%;
+    left: -24%;
+    /* position: relative; */
+    top: -109px;
+  }
+  #nav .ourclient .navbar-nav {
+    width: 100%;
+    /* margin: 100px;
+    display: flex;
+    justify-content: space-around; */
+  }
+  /* our client */
+  #our-clients .image {
+    top: -12%;
+    width: 94%;
+    left: 5%;
+  }
+  /* gallery */
+  .image-gallery {
+    width: 89%;
+    left: 8%;
+    top: -9%;
+  }
+  #contact img {
+    width: 95%;
+    /* height: 100%; */
+    top: -16%;
+    left: 4%;
+  }
+  #contact .container {
+    top: -86%;
+    /* height: 100vh; */
+  }
+}
+@media (min-width: 1900px) and (max-width: 2000px) {
+  #carousal .carousel-inner img {
+    height: 400px;
+    width: 800px;
+    position: relative;
+  }
+  #carousal a {
+    margin: 0px 796px;
+    margin-top: 100px;
+  }
+  #carousal .container_fluid {
+    position: relative;
+    bottom: 77%;
+    left: 7%;
+  }
+
+  .carouselControls img {
+    width: 830px;
+    height: 430px;
+  }
+
+  #carousal {
+    height: 154vh;
+  }
+
+  #carousal .carimg {
+    width: 98%;
+    left: 5%;
+    top: -13%;
+  }
+
+  #ourservices img {
+    width: 96%;
+    left: 3%;
+    top: -125px;
+  }
+  #navbarNav .navbar-nav {
+    width: 100%;
+  }
+  #navbarNav .navbar-nav {
+    margin: 0px -2%;
+  }
+  #navbarNav .navbar-nav li {
+    width: 100%;
+    /* padding: 28px; */
+  }
+  #navbarNav .navbar-nav ul {
+    width: 100%;
+  }
+
+  /* portfolio */
+  .image-portfolio {
+    width: 167%;
+    left: -30%;
+    /* position: relative; */
+    top: -124px;
+  }
+  #nav .ourclient .navbar-nav {
+    width: 100%;
+    /* margin: 100px;
+    display: flex;
+    justify-content: space-around; */
+  }
+  /* our client */
+  #our-clients .image {
+    top: -12%;
+    width: 95%;
+    left: 4%;
+  }
+  /* gallery */
+  .image-gallery {
+    width: 91%;
+    left: 6%;
+    top: -9%;
+  }
+  #contact img {
+    width: 95%;
+
+    top: -17%;
+    left: 4%;
+  }
+  #contact .container {
+    top: -86%;
+    /* height: 100vh; */
+  }
+}
+
+@media (max-width: 800px) {
+  #nav {
+    height: 100%;
+  }
+  /* .navbar-toggler {
+    height: 3vh;
+  } */
+  #navbarNav img {
+    height: 200px;
+    width: 200px;
+    margin-left: 22%;
+    margin-top: 50px;
+  }
+  #navbarNav .navbar-nav .active {
+    border-bottom: none;
+  }
+  #navbarNav .navbar-nav li {
+    border-bottom: none;
+    text-align: -webkit-center;
+  }
+  #carousal {
+    width: 100%;
+    height: 100%;
+  }
+  #carousal .istimg {
+    display: none;
+  }
+  #carousal .container_fluid {
+    bottom: 0;
+  }
+
+  #carousal .carousel-inner img {
+    height: 200px;
+    border-radius: 5%;
+  }
+  #carousal .images {
+    width: 400px;
+    /* height: 20%; */
+    margin-left: 20%;
+    bottom: 0px;
+    position: relative;
+  }
+  #carousal .arrows img {
+    height: 200px;
+    width: 200px;
+  }
+  #carousal .images a {
+    /* margin: 0px 450px; */
+    display: none;
+  }
+  #carousal .para h3,
+  p {
+    margin: 20px;
+    margin-left: 50%;
+    width: 100%;
+    position: relative;
+    /* top: -250px; */
+    text-align: -webkit-auto;
+  }
+  #carousal .mt-5 {
+    margin-top: -12rem;
+  }
+  .carousel-control-prev-icon {
+    width: 40%;
+    height: 20vh;
+    margin-left: 40%;
+  }
+  .carousel-control-next-icon {
+    width: 40%;
+    height: 20vh;
+  }
+  /* #ourwork */
+
+  #ourwork h2 {
+    margin-left: 40%;
+    font-family: work-sans;
+
+    padding-top: 5%;
+  }
+  .carouselControls img {
+    width: 400px;
+    height: 200px;
+    margin-top: 8%;
+    margin-left: 20%;
+  }
+  .carouselControls a {
+    width: 15%;
+    height: 10vh;
+
+    margin-top: 24%;
+  }
+  #ourwork p {
+    width: 80%;
+    text-align: center;
+    float: right;
+  }
+
+  /* ouworktwo*/
+
+  #ourworktwo {
+    height: 200vh;
+  }
+  #ourworktwo .thirdborder {
+    height: 50%;
+    width: 200px;
+  }
+
+  #ourworktwo h2 {
+    margin-left: 40%;
+    font-family: work-sans;
+    margin-top: 10px;
+    color: white;
+    padding-top: 5%;
+  }
+  .carouselControlstwo img {
+    width: 400px;
+    height: 200px;
+    margin-top: 8%;
+    margin-left: 20%;
+    position: relative;
+    top: -200px;
+    z-index: 1;
+  }
+  .carouselControlstwo a {
+    width: 15%;
+    height: 10vh;
+
+    margin-top: 24%;
+  }
+  #ourworktwo p {
+    width: 80%;
+    text-align: center;
+    float: right;
+  }
+  /* ///////////////////// */
+  #ourservices {
+    height: 100%;
+  }
+  #ourservices img {
+    position: relative;
+    top: -15px;
+  }
+
+  /* portdolio */
+  .image-portfolio {
+    position: absolute;
+    z-index: 1;
+  }
+  .owl-carousel .owl-item img {
+    /* position: absolute; */
+    z-index: 1;
+    bottom: 50px;
+  }
+  /* ourcleaints */
+  #our-clients h2,
+  p {
+    text-align: center;
+    width: 100%;
+  }
+  .responsive-div-center {
+    text-align: center;
+  }
+  #our-clients p {
+    padding-top: 2%;
+    margin: auto;
+  }
+  #contact {
+    height: 100vh;
+  }
+  #contact img {
+    display: none;
+  }
+  #contact .container {
+    bottom: 0;
+  }
+  #owl .image {
+    display: none;
+  }
+  #owl .portfolio {
+    margin-top: 6%;
+  }
+  #our-clients {
+    height: 100%;
+  }
+  #our-clients .image {
+    display: none;
+  }
+  #our-clients .container {
+    bottom: 0;
+  }
+  .picture .image {
+    display: none;
+  }
+  #owlcarousal {
+    bottom: 0;
+  }
+  .picture h5,
+  .video h5 {
+    bottom: 0;
+  }
+  #ourwork .whiteimg {
+    display: none;
+  }
+  .carouselControls {
+    bottom: 0;
+  }
+  #ourwork .para {
+    bottom: 0;
+    color: black;
+    font-weight: 100;
+  }
+  #ourwork span hr {
+    display: none;
+  }
+  #ourwork {
+    height: 100%;
+  }
+  #ourworktwo .thirdimg {
+    display: none;
+  }
+  .carouselControlstwo {
+    margin-top: 0;
+  }
+  #ourworktwo p {
+    margin-top: -144px;
+  }
+  hr {
+    display: none !important;
+  }
+  #ourworktwo {
+    height: 100vh;
+  }
+  #ourwork a img {
+    display: none;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  #carousal .carousel-inner img {
+    width: 200px;
+    height: 210px;
+    position: relative;
+    bottom: -106;
+    z-index: 1;
+  }
+  .image-portfolio {
+    display: none;
+  }
+  #carousal .carimg {
+    display: none;
+  }
+  #carousal .para h3,
+  p {
+    margin: 20px;
+    font-size: 10px;
+    margin-left: 5%;
+    width: 95%;
+    text-align: center;
+  }
+  .istcarousal {
+    margin-top: -15px;
+  }
+  #carousal h1 {
+    font-size: 20px;
+  }
+  .carouselControls img {
+    width: 235px;
+    height: 190px;
+    margin-top: 8%;
+    margin-left: 16%;
+  }
+  #ourwork h2 {
+    margin-left: 30%;
+  }
+  .carouselControls a i {
+    font-size: 35px;
+  }
+  .carouselControlstwo img {
+    width: 235px;
+    height: 25vh;
+    margin-top: 63%;
+    margin-left: 17%;
+  }
+  #ourworktwo a i {
+    font-size: 35px;
+  }
+  .carouselControlstwo a {
+    display: none;
+  }
+  #ourworktwo h2 {
+    margin-left: 30%;
+  }
+  .owl-carousel .owl-item .width-95perc {
+    width: 95%;
+  }
+  .margin-auto-mobile {
+    margin: auto;
+  }
+  #ourworktwo {
+    height: 68vh;
+  }
+  #ourworktwo .thirdborder {
+    display: none;
+  }
+  #ourservices img {
+    display: none;
+  }
+  #ourservices .container {
+    margin: auto;
+  }
+  #our-clients {
+    margin-top: -48px;
+  }
+  .image-gallery {
+    display: none;
+  }
+  #gallery {
+    height: 100%;
+  }
+  #picture {
+    height: 60vh;
+  }
+  #contact .container {
+    top: 0%;
+  }
+}
